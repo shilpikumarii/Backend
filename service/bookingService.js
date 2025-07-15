@@ -98,8 +98,9 @@ const deleteBookingService = async (bookingId) => {
 const getAllBookingsService = async () => {
   return await Booking.find()
     .populate("listing", "title images price city country")
-    .populate("user", "name email");
+    .populate("user");
 };
+
 
 module.exports = {
   createBookingService,

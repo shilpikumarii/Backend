@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "build": "cd ../frontend && npm run build && xcopy /E /I /Y build ..\\backend\\public"
+    "text": "echo \"Error:no text specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
